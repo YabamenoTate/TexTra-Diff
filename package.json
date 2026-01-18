@@ -1,0 +1,1289 @@
+{
+    "publisher": "Unofficial",
+    "icon": "TexTra/images/TexTra_cyan.png",
+    "name": "nicttextramod",
+    "displayName": "TexTra Diff",
+    "description": "Translates texts on VSCode editor utilizing Minna no Jido Hon'yaku.",
+    "version": "0.0.13",
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "repository": {},
+    "activationEvents": [
+        "onCommand:nicttextramod.translate_rst",
+        "onCommand:nicttextramod.translate_md",
+        "onCommand:nicttextramod.check_term_using",
+        "onCommand:nicttextramod.alignment",
+        "onCommand:nicttextramod.formatting_texts",
+        "onCommand:nicttextramod.set_api_params",
+        "onCommand:nicttextramod.translate.ja2en",
+        "onCommand:nicttextramod.translate.ja2zh-CN",
+        "onCommand:nicttextramod.translate.ja2ko",
+        "onCommand:nicttextramod.translate.ja2de",
+        "onCommand:nicttextramod.translate.ja2fr",
+        "onCommand:nicttextramod.translate.ja2id",
+        "onCommand:nicttextramod.translate.ja2tr",
+        "onCommand:nicttextramod.translate.ja2es",
+        "onCommand:nicttextramod.translate.ja2vi",
+        "onCommand:nicttextramod.translate.ja2my",
+        "onCommand:nicttextramod.translate.ja2th",
+        "onCommand:nicttextramod.translate.ja2pt",
+        "onCommand:nicttextramod.translate.ja2ar",
+        "onCommand:nicttextramod.translate.ja2it",
+        "onCommand:nicttextramod.translate.ja2ru",
+        "onCommand:nicttextramod.translate.en2ja",
+        "onCommand:nicttextramod.translate.en2zh-CN",
+        "onCommand:nicttextramod.translate.en2ko",
+        "onCommand:nicttextramod.translate.en2de",
+        "onCommand:nicttextramod.translate.en2fr",
+        "onCommand:nicttextramod.translate.en2id",
+        "onCommand:nicttextramod.translate.en2tr",
+        "onCommand:nicttextramod.translate.en2es",
+        "onCommand:nicttextramod.translate.en2vi",
+        "onCommand:nicttextramod.translate.en2my",
+        "onCommand:nicttextramod.translate.en2th",
+        "onCommand:nicttextramod.translate.en2pt",
+        "onCommand:nicttextramod.translate.en2ar",
+        "onCommand:nicttextramod.translate.en2it",
+        "onCommand:nicttextramod.translate.en2ru",
+        "onCommand:nicttextramod.translate.zh-CN2ja",
+        "onCommand:nicttextramod.translate.zh-CN2en",
+        "onCommand:nicttextramod.translate.zh-CN2ko",
+        "onCommand:nicttextramod.translate.zh-CN2de",
+        "onCommand:nicttextramod.translate.zh-CN2fr",
+        "onCommand:nicttextramod.translate.zh-CN2id",
+        "onCommand:nicttextramod.translate.zh-CN2tr",
+        "onCommand:nicttextramod.translate.zh-CN2es",
+        "onCommand:nicttextramod.translate.zh-CN2vi",
+        "onCommand:nicttextramod.translate.zh-CN2my",
+        "onCommand:nicttextramod.translate.zh-CN2th",
+        "onCommand:nicttextramod.translate.zh-CN2pt",
+        "onCommand:nicttextramod.translate.zh-CN2ar",
+        "onCommand:nicttextramod.translate.zh-CN2it",
+        "onCommand:nicttextramod.translate.zh-CN2ru",
+        "onCommand:nicttextramod.translate.ko2ja",
+        "onCommand:nicttextramod.translate.ko2en",
+        "onCommand:nicttextramod.translate.ko2zh-CN",
+        "onCommand:nicttextramod.translate.ko2de",
+        "onCommand:nicttextramod.translate.ko2fr",
+        "onCommand:nicttextramod.translate.ko2id",
+        "onCommand:nicttextramod.translate.ko2tr",
+        "onCommand:nicttextramod.translate.ko2es",
+        "onCommand:nicttextramod.translate.ko2vi",
+        "onCommand:nicttextramod.translate.ko2my",
+        "onCommand:nicttextramod.translate.ko2th",
+        "onCommand:nicttextramod.translate.ko2pt",
+        "onCommand:nicttextramod.translate.ko2ar",
+        "onCommand:nicttextramod.translate.ko2it",
+        "onCommand:nicttextramod.translate.ko2ru",
+        "onCommand:nicttextramod.translate.de2ja",
+        "onCommand:nicttextramod.translate.de2en",
+        "onCommand:nicttextramod.translate.de2zh-CN",
+        "onCommand:nicttextramod.translate.de2ko",
+        "onCommand:nicttextramod.translate.de2fr",
+        "onCommand:nicttextramod.translate.de2id",
+        "onCommand:nicttextramod.translate.de2tr",
+        "onCommand:nicttextramod.translate.de2es",
+        "onCommand:nicttextramod.translate.de2vi",
+        "onCommand:nicttextramod.translate.de2my",
+        "onCommand:nicttextramod.translate.de2th",
+        "onCommand:nicttextramod.translate.de2pt",
+        "onCommand:nicttextramod.translate.de2ar",
+        "onCommand:nicttextramod.translate.de2it",
+        "onCommand:nicttextramod.translate.de2ru",
+        "onCommand:nicttextramod.translate.fr2ja",
+        "onCommand:nicttextramod.translate.fr2en",
+        "onCommand:nicttextramod.translate.fr2zh-CN",
+        "onCommand:nicttextramod.translate.fr2ko",
+        "onCommand:nicttextramod.translate.fr2de",
+        "onCommand:nicttextramod.translate.fr2id",
+        "onCommand:nicttextramod.translate.fr2tr",
+        "onCommand:nicttextramod.translate.fr2es",
+        "onCommand:nicttextramod.translate.fr2vi",
+        "onCommand:nicttextramod.translate.fr2my",
+        "onCommand:nicttextramod.translate.fr2th",
+        "onCommand:nicttextramod.translate.fr2pt",
+        "onCommand:nicttextramod.translate.fr2ar",
+        "onCommand:nicttextramod.translate.fr2it",
+        "onCommand:nicttextramod.translate.fr2ru",
+        "onCommand:nicttextramod.translate.id2ja",
+        "onCommand:nicttextramod.translate.id2en",
+        "onCommand:nicttextramod.translate.id2zh-CN",
+        "onCommand:nicttextramod.translate.id2ko",
+        "onCommand:nicttextramod.translate.id2de",
+        "onCommand:nicttextramod.translate.id2fr",
+        "onCommand:nicttextramod.translate.id2tr",
+        "onCommand:nicttextramod.translate.id2es",
+        "onCommand:nicttextramod.translate.id2vi",
+        "onCommand:nicttextramod.translate.id2my",
+        "onCommand:nicttextramod.translate.id2th",
+        "onCommand:nicttextramod.translate.id2pt",
+        "onCommand:nicttextramod.translate.id2ar",
+        "onCommand:nicttextramod.translate.id2it",
+        "onCommand:nicttextramod.translate.id2ru",
+        "onCommand:nicttextramod.translate.tr2ja",
+        "onCommand:nicttextramod.translate.tr2en",
+        "onCommand:nicttextramod.translate.tr2zh-CN",
+        "onCommand:nicttextramod.translate.tr2ko",
+        "onCommand:nicttextramod.translate.tr2de",
+        "onCommand:nicttextramod.translate.tr2fr",
+        "onCommand:nicttextramod.translate.tr2id",
+        "onCommand:nicttextramod.translate.tr2es",
+        "onCommand:nicttextramod.translate.tr2vi",
+        "onCommand:nicttextramod.translate.tr2my",
+        "onCommand:nicttextramod.translate.tr2th",
+        "onCommand:nicttextramod.translate.tr2pt",
+        "onCommand:nicttextramod.translate.tr2ar",
+        "onCommand:nicttextramod.translate.tr2it",
+        "onCommand:nicttextramod.translate.tr2ru",
+        "onCommand:nicttextramod.translate.es2ja",
+        "onCommand:nicttextramod.translate.es2en",
+        "onCommand:nicttextramod.translate.es2zh-CN",
+        "onCommand:nicttextramod.translate.es2ko",
+        "onCommand:nicttextramod.translate.es2de",
+        "onCommand:nicttextramod.translate.es2fr",
+        "onCommand:nicttextramod.translate.es2id",
+        "onCommand:nicttextramod.translate.es2tr",
+        "onCommand:nicttextramod.translate.es2vi",
+        "onCommand:nicttextramod.translate.es2my",
+        "onCommand:nicttextramod.translate.es2th",
+        "onCommand:nicttextramod.translate.es2pt",
+        "onCommand:nicttextramod.translate.es2ar",
+        "onCommand:nicttextramod.translate.es2it",
+        "onCommand:nicttextramod.translate.es2ru",
+        "onCommand:nicttextramod.translate.vi2ja",
+        "onCommand:nicttextramod.translate.vi2en",
+        "onCommand:nicttextramod.translate.vi2zh-CN",
+        "onCommand:nicttextramod.translate.vi2ko",
+        "onCommand:nicttextramod.translate.vi2de",
+        "onCommand:nicttextramod.translate.vi2fr",
+        "onCommand:nicttextramod.translate.vi2id",
+        "onCommand:nicttextramod.translate.vi2tr",
+        "onCommand:nicttextramod.translate.vi2es",
+        "onCommand:nicttextramod.translate.vi2my",
+        "onCommand:nicttextramod.translate.vi2th",
+        "onCommand:nicttextramod.translate.vi2pt",
+        "onCommand:nicttextramod.translate.vi2ar",
+        "onCommand:nicttextramod.translate.vi2it",
+        "onCommand:nicttextramod.translate.vi2ru",
+        "onCommand:nicttextramod.translate.my2ja",
+        "onCommand:nicttextramod.translate.my2en",
+        "onCommand:nicttextramod.translate.my2zh-CN",
+        "onCommand:nicttextramod.translate.my2ko",
+        "onCommand:nicttextramod.translate.my2de",
+        "onCommand:nicttextramod.translate.my2fr",
+        "onCommand:nicttextramod.translate.my2id",
+        "onCommand:nicttextramod.translate.my2tr",
+        "onCommand:nicttextramod.translate.my2es",
+        "onCommand:nicttextramod.translate.my2vi",
+        "onCommand:nicttextramod.translate.my2th",
+        "onCommand:nicttextramod.translate.my2pt",
+        "onCommand:nicttextramod.translate.my2ar",
+        "onCommand:nicttextramod.translate.my2it",
+        "onCommand:nicttextramod.translate.my2ru",
+        "onCommand:nicttextramod.translate.th2ja",
+        "onCommand:nicttextramod.translate.th2en",
+        "onCommand:nicttextramod.translate.th2zh-CN",
+        "onCommand:nicttextramod.translate.th2ko",
+        "onCommand:nicttextramod.translate.th2de",
+        "onCommand:nicttextramod.translate.th2fr",
+        "onCommand:nicttextramod.translate.th2id",
+        "onCommand:nicttextramod.translate.th2tr",
+        "onCommand:nicttextramod.translate.th2es",
+        "onCommand:nicttextramod.translate.th2vi",
+        "onCommand:nicttextramod.translate.th2my",
+        "onCommand:nicttextramod.translate.th2pt",
+        "onCommand:nicttextramod.translate.th2ar",
+        "onCommand:nicttextramod.translate.th2it",
+        "onCommand:nicttextramod.translate.th2ru",
+        "onCommand:nicttextramod.translate.pt2ja",
+        "onCommand:nicttextramod.translate.pt2en",
+        "onCommand:nicttextramod.translate.pt2zh-CN",
+        "onCommand:nicttextramod.translate.pt2ko",
+        "onCommand:nicttextramod.translate.pt2de",
+        "onCommand:nicttextramod.translate.pt2fr",
+        "onCommand:nicttextramod.translate.pt2id",
+        "onCommand:nicttextramod.translate.pt2tr",
+        "onCommand:nicttextramod.translate.pt2es",
+        "onCommand:nicttextramod.translate.pt2vi",
+        "onCommand:nicttextramod.translate.pt2my",
+        "onCommand:nicttextramod.translate.pt2th",
+        "onCommand:nicttextramod.translate.pt2ar",
+        "onCommand:nicttextramod.translate.pt2it",
+        "onCommand:nicttextramod.translate.pt2ru",
+        "onCommand:nicttextramod.translate.ar2ja",
+        "onCommand:nicttextramod.translate.ar2en",
+        "onCommand:nicttextramod.translate.ar2zh-CN",
+        "onCommand:nicttextramod.translate.ar2ko",
+        "onCommand:nicttextramod.translate.ar2de",
+        "onCommand:nicttextramod.translate.ar2fr",
+        "onCommand:nicttextramod.translate.ar2id",
+        "onCommand:nicttextramod.translate.ar2tr",
+        "onCommand:nicttextramod.translate.ar2es",
+        "onCommand:nicttextramod.translate.ar2vi",
+        "onCommand:nicttextramod.translate.ar2my",
+        "onCommand:nicttextramod.translate.ar2th",
+        "onCommand:nicttextramod.translate.ar2pt",
+        "onCommand:nicttextramod.translate.ar2it",
+        "onCommand:nicttextramod.translate.ar2ru",
+        "onCommand:nicttextramod.translate.it2ja",
+        "onCommand:nicttextramod.translate.it2en",
+        "onCommand:nicttextramod.translate.it2zh-CN",
+        "onCommand:nicttextramod.translate.it2ko",
+        "onCommand:nicttextramod.translate.it2de",
+        "onCommand:nicttextramod.translate.it2fr",
+        "onCommand:nicttextramod.translate.it2id",
+        "onCommand:nicttextramod.translate.it2tr",
+        "onCommand:nicttextramod.translate.it2es",
+        "onCommand:nicttextramod.translate.it2vi",
+        "onCommand:nicttextramod.translate.it2my",
+        "onCommand:nicttextramod.translate.it2th",
+        "onCommand:nicttextramod.translate.it2pt",
+        "onCommand:nicttextramod.translate.it2ar",
+        "onCommand:nicttextramod.translate.it2ru",
+        "onCommand:nicttextramod.translate.ru2ja",
+        "onCommand:nicttextramod.translate.ru2en",
+        "onCommand:nicttextramod.translate.ru2zh-CN",
+        "onCommand:nicttextramod.translate.ru2ko",
+        "onCommand:nicttextramod.translate.ru2de",
+        "onCommand:nicttextramod.translate.ru2fr",
+        "onCommand:nicttextramod.translate.ru2id",
+        "onCommand:nicttextramod.translate.ru2tr",
+        "onCommand:nicttextramod.translate.ru2es",
+        "onCommand:nicttextramod.translate.ru2vi",
+        "onCommand:nicttextramod.translate.ru2my",
+        "onCommand:nicttextramod.translate.ru2th",
+        "onCommand:nicttextramod.translate.ru2pt",
+        "onCommand:nicttextramod.translate.ru2ar",
+        "onCommand:nicttextramod.translate.ru2it"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "nicttextramod.set_api_params",
+                "title": "TexTra: API settings"
+            },
+            {
+                "command": "nicttextramod.translate_rst",
+                "title": "TexTra: Translate rst (reStructuredText)"
+            },
+            {
+                "command": "nicttextramod.translate_md",
+                "title": "TexTra: Translate md (MarkDown)"
+            },
+            {
+                "command": "nicttextramod.check_term_using",
+                "title": "TexTra: Check terms using"
+            },
+            {
+                "command": "nicttextramod.alignment",
+                "title": "TexTra: Alignment"
+            },
+            {
+                "command": "nicttextramod.formatting_texts",
+                "title": "TexTra: Formatting Texts"
+            },
+            {
+                "command": "nicttextramod.translate.ja2en",
+                "title": "TexTra: Ja -> En"
+            },
+            {
+                "command": "nicttextramod.translate.ja2zh-CN",
+                "title": "TexTra: Ja -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.ja2ko",
+                "title": "TexTra: Ja -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.ja2de",
+                "title": "TexTra: Ja -> De"
+            },
+            {
+                "command": "nicttextramod.translate.ja2fr",
+                "title": "TexTra: Ja -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.ja2id",
+                "title": "TexTra: Ja -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.ja2tr",
+                "title": "TexTra: Ja -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.ja2es",
+                "title": "TexTra: Ja -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.ja2vi",
+                "title": "TexTra: Ja -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.ja2my",
+                "title": "TexTra: Ja -> My"
+            },
+            {
+                "command": "nicttextramod.translate.ja2th",
+                "title": "TexTra: Ja -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.ja2pt",
+                "title": "TexTra: Ja -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.ja2ar",
+                "title": "TexTra: Ja -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.ja2it",
+                "title": "TexTra: Ja -> It"
+            },
+            {
+                "command": "nicttextramod.translate.ja2ru",
+                "title": "TexTra: Ja -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.en2ja",
+                "title": "TexTra: En -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.en2zh-CN",
+                "title": "TexTra: En -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.en2ko",
+                "title": "TexTra: En -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.en2de",
+                "title": "TexTra: En -> De"
+            },
+            {
+                "command": "nicttextramod.translate.en2fr",
+                "title": "TexTra: En -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.en2id",
+                "title": "TexTra: En -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.en2tr",
+                "title": "TexTra: En -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.en2es",
+                "title": "TexTra: En -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.en2vi",
+                "title": "TexTra: En -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.en2my",
+                "title": "TexTra: En -> My"
+            },
+            {
+                "command": "nicttextramod.translate.en2th",
+                "title": "TexTra: En -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.en2pt",
+                "title": "TexTra: En -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.en2ar",
+                "title": "TexTra: En -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.en2it",
+                "title": "TexTra: En -> It"
+            },
+            {
+                "command": "nicttextramod.translate.en2ru",
+                "title": "TexTra: En -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2ja",
+                "title": "TexTra: Zh -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2en",
+                "title": "TexTra: Zh -> En"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2ko",
+                "title": "TexTra: Zh -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2de",
+                "title": "TexTra: Zh -> De"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2fr",
+                "title": "TexTra: Zh -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2id",
+                "title": "TexTra: Zh -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2tr",
+                "title": "TexTra: Zh -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2es",
+                "title": "TexTra: Zh -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2vi",
+                "title": "TexTra: Zh -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2my",
+                "title": "TexTra: Zh -> My"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2th",
+                "title": "TexTra: Zh -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2pt",
+                "title": "TexTra: Zh -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2ar",
+                "title": "TexTra: Zh -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2it",
+                "title": "TexTra: Zh -> It"
+            },
+            {
+                "command": "nicttextramod.translate.zh-CN2ru",
+                "title": "TexTra: Zh -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.ko2ja",
+                "title": "TexTra: Ko -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.ko2en",
+                "title": "TexTra: Ko -> En"
+            },
+            {
+                "command": "nicttextramod.translate.ko2zh-CN",
+                "title": "TexTra: Ko -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.ko2de",
+                "title": "TexTra: Ko -> De"
+            },
+            {
+                "command": "nicttextramod.translate.ko2fr",
+                "title": "TexTra: Ko -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.ko2id",
+                "title": "TexTra: Ko -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.ko2tr",
+                "title": "TexTra: Ko -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.ko2es",
+                "title": "TexTra: Ko -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.ko2vi",
+                "title": "TexTra: Ko -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.ko2my",
+                "title": "TexTra: Ko -> My"
+            },
+            {
+                "command": "nicttextramod.translate.ko2th",
+                "title": "TexTra: Ko -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.ko2pt",
+                "title": "TexTra: Ko -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.ko2ar",
+                "title": "TexTra: Ko -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.ko2it",
+                "title": "TexTra: Ko -> It"
+            },
+            {
+                "command": "nicttextramod.translate.ko2ru",
+                "title": "TexTra: Ko -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.de2ja",
+                "title": "TexTra: De -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.de2en",
+                "title": "TexTra: De -> En"
+            },
+            {
+                "command": "nicttextramod.translate.de2zh-CN",
+                "title": "TexTra: De -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.de2ko",
+                "title": "TexTra: De -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.de2fr",
+                "title": "TexTra: De -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.de2id",
+                "title": "TexTra: De -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.de2tr",
+                "title": "TexTra: De -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.de2es",
+                "title": "TexTra: De -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.de2vi",
+                "title": "TexTra: De -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.de2my",
+                "title": "TexTra: De -> My"
+            },
+            {
+                "command": "nicttextramod.translate.de2th",
+                "title": "TexTra: De -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.de2pt",
+                "title": "TexTra: De -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.de2ar",
+                "title": "TexTra: De -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.de2it",
+                "title": "TexTra: De -> It"
+            },
+            {
+                "command": "nicttextramod.translate.de2ru",
+                "title": "TexTra: De -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.fr2ja",
+                "title": "TexTra: Fr -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.fr2en",
+                "title": "TexTra: Fr -> En"
+            },
+            {
+                "command": "nicttextramod.translate.fr2zh-CN",
+                "title": "TexTra: Fr -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.fr2ko",
+                "title": "TexTra: Fr -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.fr2de",
+                "title": "TexTra: Fr -> De"
+            },
+            {
+                "command": "nicttextramod.translate.fr2id",
+                "title": "TexTra: Fr -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.fr2tr",
+                "title": "TexTra: Fr -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.fr2es",
+                "title": "TexTra: Fr -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.fr2vi",
+                "title": "TexTra: Fr -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.fr2my",
+                "title": "TexTra: Fr -> My"
+            },
+            {
+                "command": "nicttextramod.translate.fr2th",
+                "title": "TexTra: Fr -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.fr2pt",
+                "title": "TexTra: Fr -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.fr2ar",
+                "title": "TexTra: Fr -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.fr2it",
+                "title": "TexTra: Fr -> It"
+            },
+            {
+                "command": "nicttextramod.translate.fr2ru",
+                "title": "TexTra: Fr -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.id2ja",
+                "title": "TexTra: Id -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.id2en",
+                "title": "TexTra: Id -> En"
+            },
+            {
+                "command": "nicttextramod.translate.id2zh-CN",
+                "title": "TexTra: Id -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.id2ko",
+                "title": "TexTra: Id -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.id2de",
+                "title": "TexTra: Id -> De"
+            },
+            {
+                "command": "nicttextramod.translate.id2fr",
+                "title": "TexTra: Id -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.id2tr",
+                "title": "TexTra: Id -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.id2es",
+                "title": "TexTra: Id -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.id2vi",
+                "title": "TexTra: Id -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.id2my",
+                "title": "TexTra: Id -> My"
+            },
+            {
+                "command": "nicttextramod.translate.id2th",
+                "title": "TexTra: Id -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.id2pt",
+                "title": "TexTra: Id -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.id2ar",
+                "title": "TexTra: Id -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.id2it",
+                "title": "TexTra: Id -> It"
+            },
+            {
+                "command": "nicttextramod.translate.id2ru",
+                "title": "TexTra: Id -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.tr2ja",
+                "title": "TexTra: Tr -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.tr2en",
+                "title": "TexTra: Tr -> En"
+            },
+            {
+                "command": "nicttextramod.translate.tr2zh-CN",
+                "title": "TexTra: Tr -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.tr2ko",
+                "title": "TexTra: Tr -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.tr2de",
+                "title": "TexTra: Tr -> De"
+            },
+            {
+                "command": "nicttextramod.translate.tr2fr",
+                "title": "TexTra: Tr -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.tr2id",
+                "title": "TexTra: Tr -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.tr2es",
+                "title": "TexTra: Tr -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.tr2vi",
+                "title": "TexTra: Tr -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.tr2my",
+                "title": "TexTra: Tr -> My"
+            },
+            {
+                "command": "nicttextramod.translate.tr2th",
+                "title": "TexTra: Tr -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.tr2pt",
+                "title": "TexTra: Tr -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.tr2ar",
+                "title": "TexTra: Tr -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.tr2it",
+                "title": "TexTra: Tr -> It"
+            },
+            {
+                "command": "nicttextramod.translate.tr2ru",
+                "title": "TexTra: Tr -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.es2ja",
+                "title": "TexTra: Es -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.es2en",
+                "title": "TexTra: Es -> En"
+            },
+            {
+                "command": "nicttextramod.translate.es2zh-CN",
+                "title": "TexTra: Es -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.es2ko",
+                "title": "TexTra: Es -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.es2de",
+                "title": "TexTra: Es -> De"
+            },
+            {
+                "command": "nicttextramod.translate.es2fr",
+                "title": "TexTra: Es -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.es2id",
+                "title": "TexTra: Es -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.es2tr",
+                "title": "TexTra: Es -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.es2vi",
+                "title": "TexTra: Es -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.es2my",
+                "title": "TexTra: Es -> My"
+            },
+            {
+                "command": "nicttextramod.translate.es2th",
+                "title": "TexTra: Es -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.es2pt",
+                "title": "TexTra: Es -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.es2ar",
+                "title": "TexTra: Es -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.es2it",
+                "title": "TexTra: Es -> It"
+            },
+            {
+                "command": "nicttextramod.translate.es2ru",
+                "title": "TexTra: Es -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.vi2ja",
+                "title": "TexTra: Vi -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.vi2en",
+                "title": "TexTra: Vi -> En"
+            },
+            {
+                "command": "nicttextramod.translate.vi2zh-CN",
+                "title": "TexTra: Vi -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.vi2ko",
+                "title": "TexTra: Vi -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.vi2de",
+                "title": "TexTra: Vi -> De"
+            },
+            {
+                "command": "nicttextramod.translate.vi2fr",
+                "title": "TexTra: Vi -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.vi2id",
+                "title": "TexTra: Vi -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.vi2tr",
+                "title": "TexTra: Vi -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.vi2es",
+                "title": "TexTra: Vi -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.vi2my",
+                "title": "TexTra: Vi -> My"
+            },
+            {
+                "command": "nicttextramod.translate.vi2th",
+                "title": "TexTra: Vi -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.vi2pt",
+                "title": "TexTra: Vi -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.vi2ar",
+                "title": "TexTra: Vi -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.vi2it",
+                "title": "TexTra: Vi -> It"
+            },
+            {
+                "command": "nicttextramod.translate.vi2ru",
+                "title": "TexTra: Vi -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.my2ja",
+                "title": "TexTra: My -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.my2en",
+                "title": "TexTra: My -> En"
+            },
+            {
+                "command": "nicttextramod.translate.my2zh-CN",
+                "title": "TexTra: My -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.my2ko",
+                "title": "TexTra: My -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.my2de",
+                "title": "TexTra: My -> De"
+            },
+            {
+                "command": "nicttextramod.translate.my2fr",
+                "title": "TexTra: My -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.my2id",
+                "title": "TexTra: My -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.my2tr",
+                "title": "TexTra: My -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.my2es",
+                "title": "TexTra: My -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.my2vi",
+                "title": "TexTra: My -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.my2th",
+                "title": "TexTra: My -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.my2pt",
+                "title": "TexTra: My -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.my2ar",
+                "title": "TexTra: My -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.my2it",
+                "title": "TexTra: My -> It"
+            },
+            {
+                "command": "nicttextramod.translate.my2ru",
+                "title": "TexTra: My -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.th2ja",
+                "title": "TexTra: Th -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.th2en",
+                "title": "TexTra: Th -> En"
+            },
+            {
+                "command": "nicttextramod.translate.th2zh-CN",
+                "title": "TexTra: Th -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.th2ko",
+                "title": "TexTra: Th -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.th2de",
+                "title": "TexTra: Th -> De"
+            },
+            {
+                "command": "nicttextramod.translate.th2fr",
+                "title": "TexTra: Th -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.th2id",
+                "title": "TexTra: Th -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.th2tr",
+                "title": "TexTra: Th -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.th2es",
+                "title": "TexTra: Th -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.th2vi",
+                "title": "TexTra: Th -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.th2my",
+                "title": "TexTra: Th -> My"
+            },
+            {
+                "command": "nicttextramod.translate.th2pt",
+                "title": "TexTra: Th -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.th2ar",
+                "title": "TexTra: Th -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.th2it",
+                "title": "TexTra: Th -> It"
+            },
+            {
+                "command": "nicttextramod.translate.th2ru",
+                "title": "TexTra: Th -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.pt2ja",
+                "title": "TexTra: Pt -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.pt2en",
+                "title": "TexTra: Pt -> En"
+            },
+            {
+                "command": "nicttextramod.translate.pt2zh-CN",
+                "title": "TexTra: Pt -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.pt2ko",
+                "title": "TexTra: Pt -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.pt2de",
+                "title": "TexTra: Pt -> De"
+            },
+            {
+                "command": "nicttextramod.translate.pt2fr",
+                "title": "TexTra: Pt -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.pt2id",
+                "title": "TexTra: Pt -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.pt2tr",
+                "title": "TexTra: Pt -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.pt2es",
+                "title": "TexTra: Pt -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.pt2vi",
+                "title": "TexTra: Pt -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.pt2my",
+                "title": "TexTra: Pt -> My"
+            },
+            {
+                "command": "nicttextramod.translate.pt2th",
+                "title": "TexTra: Pt -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.pt2ar",
+                "title": "TexTra: Pt -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.pt2it",
+                "title": "TexTra: Pt -> It"
+            },
+            {
+                "command": "nicttextramod.translate.pt2ru",
+                "title": "TexTra: Pt -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.ar2ja",
+                "title": "TexTra: Ar -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.ar2en",
+                "title": "TexTra: Ar -> En"
+            },
+            {
+                "command": "nicttextramod.translate.ar2zh-CN",
+                "title": "TexTra: Ar -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.ar2ko",
+                "title": "TexTra: Ar -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.ar2de",
+                "title": "TexTra: Ar -> De"
+            },
+            {
+                "command": "nicttextramod.translate.ar2fr",
+                "title": "TexTra: Ar -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.ar2id",
+                "title": "TexTra: Ar -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.ar2tr",
+                "title": "TexTra: Ar -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.ar2es",
+                "title": "TexTra: Ar -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.ar2vi",
+                "title": "TexTra: Ar -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.ar2my",
+                "title": "TexTra: Ar -> My"
+            },
+            {
+                "command": "nicttextramod.translate.ar2th",
+                "title": "TexTra: Ar -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.ar2pt",
+                "title": "TexTra: Ar -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.ar2it",
+                "title": "TexTra: Ar -> It"
+            },
+            {
+                "command": "nicttextramod.translate.ar2ru",
+                "title": "TexTra: Ar -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.it2ja",
+                "title": "TexTra: It -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.it2en",
+                "title": "TexTra: It -> En"
+            },
+            {
+                "command": "nicttextramod.translate.it2zh-CN",
+                "title": "TexTra: It -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.it2ko",
+                "title": "TexTra: It -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.it2de",
+                "title": "TexTra: It -> De"
+            },
+            {
+                "command": "nicttextramod.translate.it2fr",
+                "title": "TexTra: It -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.it2id",
+                "title": "TexTra: It -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.it2tr",
+                "title": "TexTra: It -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.it2es",
+                "title": "TexTra: It -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.it2vi",
+                "title": "TexTra: It -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.it2my",
+                "title": "TexTra: It -> My"
+            },
+            {
+                "command": "nicttextramod.translate.it2th",
+                "title": "TexTra: It -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.it2pt",
+                "title": "TexTra: It -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.it2ar",
+                "title": "TexTra: It -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.it2ru",
+                "title": "TexTra: It -> Ru"
+            },
+            {
+                "command": "nicttextramod.translate.ru2ja",
+                "title": "TexTra: Ru -> Ja"
+            },
+            {
+                "command": "nicttextramod.translate.ru2en",
+                "title": "TexTra: Ru -> En"
+            },
+            {
+                "command": "nicttextramod.translate.ru2zh-CN",
+                "title": "TexTra: Ru -> Zh"
+            },
+            {
+                "command": "nicttextramod.translate.ru2ko",
+                "title": "TexTra: Ru -> Ko"
+            },
+            {
+                "command": "nicttextramod.translate.ru2de",
+                "title": "TexTra: Ru -> De"
+            },
+            {
+                "command": "nicttextramod.translate.ru2fr",
+                "title": "TexTra: Ru -> Fr"
+            },
+            {
+                "command": "nicttextramod.translate.ru2id",
+                "title": "TexTra: Ru -> Id"
+            },
+            {
+                "command": "nicttextramod.translate.ru2tr",
+                "title": "TexTra: Ru -> Tr"
+            },
+            {
+                "command": "nicttextramod.translate.ru2es",
+                "title": "TexTra: Ru -> Es"
+            },
+            {
+                "command": "nicttextramod.translate.ru2vi",
+                "title": "TexTra: Ru -> Vi"
+            },
+            {
+                "command": "nicttextramod.translate.ru2my",
+                "title": "TexTra: Ru -> My"
+            },
+            {
+                "command": "nicttextramod.translate.ru2th",
+                "title": "TexTra: Ru -> Th"
+            },
+            {
+                "command": "nicttextramod.translate.ru2pt",
+                "title": "TexTra: Ru -> Pt"
+            },
+            {
+                "command": "nicttextramod.translate.ru2ar",
+                "title": "TexTra: Ru -> Ar"
+            },
+            {
+                "command": "nicttextramod.translate.ru2it",
+                "title": "TexTra: Ru -> It"
+            }
+        ],
+        "configuration": {
+            "title": "nicttextramod",
+            "properties": {
+                "nicttextramod.UI_Language": {
+                    "type": "string",
+                    "enum": [
+                        "Japanese",
+                        "English"
+                    ],
+                    "default": "Japanese"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^13.11.0",
+        "@types/vscode": "^1.47.0",
+        "eslint": "^9.39.2",
+        "glob": "^7.1.6",
+        "mocha": "^0.13.0",
+        "typescript": "^3.8.3",
+        "vscode-test": "^1.3.0"
+    },
+    "dependencies": {
+        "crypto-js": "^4.0.0",
+        "dateformat": "^4.5.1",
+        "jsdom": "^16.4.0",
+        "marked": "^17.0.1",
+        "request": "^2.88.2",
+        "rst2html": "^1.0.4"
+    }
+}

@@ -1,0 +1,35 @@
+2021/03/05
+公開手順
+ターミナルでコマンド
+
+エラー"vsce.ps1 を読み込めません。"が出た場合、
+下記のコマンドを実行する。
+powershell -ExecutionPolicy RemoteSigned
+
+vsce login NICT
+vsce publish
+
+===================================================
+2021/03/04
+configurationなどの保存場所
+C:\Users\****\AppData\Roaming\Code\User\settings.json
+
+暗号化はされない
+
+===================================================
+2021/03/03
+VSCodeのアドオンのコーディングについては
+「nodejs」で検索すると良い。
+
+===================================================
+2020/08/12
+JSHintの「only available in ES6 (use 'esversion: 6')」という
+注意が出力される。
+
+プロジェクトのルートフォルダに
+「.jshintrc」ファイルを作成する。
+
+以下の内容を記述する。
+{
+  "esversion": 6
+}
